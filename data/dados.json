@@ -1,0 +1,52 @@
+[ 
+    {
+    
+        "DescriçãoVisual": {
+            "src": "data/imagens/kit-tinta.jpg",
+            "alt": "Kit original tinta Epson"
+        },
+        "NomeProduto": "Kit original tinta Epson",
+        "Preço": "R$199,00",
+        "Disponibilidade": "Disponível"
+        
+    },
+
+    {
+        "DescriçãoVisual": {
+            "src": "data/imagens/cartuchox.webp",
+            "alt": "Cartuchos HP 662/664/667 color e Black"
+        },
+        "NomeProduto": "Cartuchos HP 662/664/667 color e Black",
+        "Preço": "R$149,90",
+        "Disponibilidade": "Disponível"
+    },
+    {
+        "DescriçãoVisual": {
+            "src": "data/imagens/monitores.webp",
+            "alt": "Monitores 17 a 19 polegadas"
+        },
+        "NomeProduto": "Monitores 17 a 19 polegadas",
+        "Preço": "R$200 a R$250",
+        "Disponibilidade": "Disponível"
+    },
+    {
+        "DescriçãoVisual": {
+            "src": "data/imagens/controle-universal.webp",
+            "alt": "Controle Universal"
+        },
+        "NomeProduto": "Controle Universal",
+        "Preço": "R$34,90",
+        "Disponibilidade": "Disponível"
+    },
+    {
+        "DescriçãoVisual": {
+            "src": "data/imagens/manutencao.webp",
+            "alt": "Manutenção de impressoras"
+        },
+        "NomeProduto": "Serviço de manutenção de impressoras",
+        "Preço": "R$190 a R$1000",
+        "Disponibilidade": "Disponível"
+    }
+    
+]
+

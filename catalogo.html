@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="bootstrap/css/bootstrap.min.css">">
         <link rel="stylesheet" href="./CSS/style.css">
 
     <title>Document</title>
@@ -23,75 +23,46 @@
      </nav>
      
      <main>
-       <h2><img src="./imagens/logo-albatroz.jpg" alt="" width="100"> <br> 
+       <h2><img src="./data/imagens/logo-albatroz.jpg" class="logo-index" alt="" width="100"> <br> 
 
      <p>
         Nosso catálogo de produtos e serviços
      </p>
 
-   <table border="1">
-   <thead>
-      <tr>
-         <th>Descrição visual</th>
-         <th>Nome do produto</th>
-         <th>Preço</th>
-         <th>Disponibilidade</th>
-      </tr>
-   </thead>
-   <tr>
-      <td><img src="./imagens/kit-tinta.jpg" 
-         alt="Kit original tinta Epson " 
-         width="70"></td>
-         
-      <td>Kit original tinta Epson </td>
-      <td>R$199,00</td>
-      <td>Disponível</td> 
-   </tr>
-      <tr>
-         <td><img src="./imagens/cartuchox.webp" 
-            alt="Cartuchos HP 662/664/667 color e Black"
-            width="70"></td>
-         <td>Cartuchos HP 662/664/667 color e Black</td>
-         <td>R$149,90</td>
-         <td>Disponível</td>
-      </tr>
-      <tr>
-         <td><img src="./imagens/monitores.webp" 
-            alt="Monitores 17 a 19 polegadas"
-            width="70"></td>
-         <td>Monitores 17 a 19 polegadas</td>
-         <td> R$200 a R$250</td>
-         <td>Disponível</td>
-      </tr>
-      <tr>
-            <td><img src="./imagens/controle-univeral.webp"
-               alt="Controle Universal"
-                width="70"></td>
-               <td>Controle Universal</td>
-               <td>R$34,90</td>
-               <td>Disponível</td>
-      </tr>
-         <td><img src="./imagens/manutencao.webp"
-             alt="Manutenção de impressoras"
-              width="70"></td>
-             <td>Serviço de manutenção de impressoras</td>
-             <td>R$190 a R$1000</td>
-            <td>Disponível</td>
-      <tr>
-         
-         
-      </tr>
-   </table>
+        <table border="1" id="tabela-catalogo">
+
+         <thead>
+
+            <tr>
+
+               <th>Descrição visual</th>
+
+               <th>Nome do produto</th>
+
+               <th>Preço</th>
+
+               <th>Disponibilidade</th>
+
+            </tr>
+
+         </thead>
+
+         <tbody id="corpo-tabela-produtos">
+
+         </tbody>
+
+      </table>
+
 
  </main>
-    </main>
+    
 
 
    <footer>
       
       <p>Siga-nos em nossa rede social!! <br>
       
-      <br> <img src="./imagens/instagran-icon.jfif" 
+      <br> <img src="./data/imagens/instagran-icon.jfif" 
       alt="ícone instagran" width = "20" >
          Instagram: <a href="https://www.instagram.com/albatroz.impressoras/#">
             @albatroz.impressora </p>
@@ -102,6 +73,9 @@
          Este projeto é uma ferramenta educacional e não comercial. Às informações são reais, porém são meramente para demonstração 
         </p>
    </footer>
+
+  <script src="./Js/catalogo.js"></script>
+
 </body>
 
 </html>
