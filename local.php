@@ -13,7 +13,12 @@
 
      
     <header> 
-        <h1> Albatroz impressoras</h1>     </header>
+        <h1> Albatroz impressoras</h1>     
+      
+           <?php include 'nav.php'; ?>
+ 
+
+      </header>
   
 
         
