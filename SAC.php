@@ -14,15 +14,9 @@
      
     <header> 
         <h1> Albatroz impressoras</h1>     </header>
-     <nav> 
-                    <a href="index.html"> 🏠 Home </a> |
-           <a href="catalogo.html"> 🛒 Catálago</a> |
-           <a href="SAC.html"> 🛠️ SAC</a> |
-           <a href="equipe.html"> 👨‍💼 Equipe</a> |
-           <a href="local.html"> 📍 Local</a>  
-            <a id="alternaTema" href="#">Alternar Tema</a>
-          
-     </nav>
+
+  <?php include 'nav.php'; ?>
+
     <main>
       <h2><img src="./data/imagens/logo-albatroz.jpg" class="logo-index" alt="" width="100"> <br> 
 
@@ -33,7 +27,7 @@
            <label for="id_nome">Nome do cliente</label><br><input type="text" name="nome" id="id_nome" >   <br><br>
               <label for="id_email">email do cliente</label><br><input type="text" name="email" id="id_email" >   <br><br>
            <label for="id_assunt">Assunto</label><br><input type="text" name="assunt" id="id_assunt" >   <br><br>
-              <label for="id_mensagem">Mensagem:</label><br>
+           <label for="id_mensagem">Mensagem:</label><br>
            <textarea name="mensagem" id="id_mensagem" ></textarea><br><br>
            <button type="submit">Enviar</button>
         </form>

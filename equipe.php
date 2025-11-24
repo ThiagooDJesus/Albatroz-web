@@ -15,16 +15,9 @@
      
     <header> 
         <h1> Albatroz impressoras</h1>     </header>
-     <nav>
-           
-                 <a href="index.html"> 🏠 Home </a> |
-           <a href="catalogo.html"> 🛒 Catálago</a> |
-           <a href="SAC.html"> 🛠️ SAC</a> |
-           <a href="equipe.html"> 👨‍💼 Equipe</a> |
-           <a href="local.html"> 📍 Local</a>  
-                      <a id="alternaTema" href="#">Alternar Tema</a>
+        
+  <?php include 'nav.php'; ?>
 
-     </nav>
      <main>
         <h2><img src="./data/imagens/logo-albatroz.jpg" class="logo-index" alt="" width="100"> <br> 
 

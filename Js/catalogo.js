@@ -1,6 +1,7 @@
 const tabelaCorpo = document.getElementById('corpo-tabela-produtos');
 
-const urlDados = 'data/dados.json';
+const urlDados = 'http://localhost/AlbatrozWeb/Albatroz-web/backend/api.php?resource=produtos';
+
 
 
 function carregarCatalogoJSON() {
@@ -27,31 +28,22 @@ function carregarCatalogoJSON() {
 }
 
 function renderizarProdutos(produtos) {
-
     let htmlProdutos = '';
 
     produtos.forEach(produto => {
         htmlProdutos += `
-<tr>
-
-<td><img src="${produto.DescriçãoVisual.src}" alt="${produto.DescriçãoVisual.alt}" width="70"></td>
-
-<td>${produto.NomeProduto}</td>
-
-<td>${produto.Preço}</td>
-
-<td>${produto.Disponibilidade}</td>
-
-</tr>
-
-`;
-
+        <tr>
+            <td><img src="${produto.imagem}" alt="${produto.nome}" width="70"></td>
+            <td>${produto.nome}</td>
+            <td>${produto.preco}</td>
+            <td>${produto.disponibilidade}</td>
+        </tr>
+        `;
     });
 
-
     tabelaCorpo.innerHTML = htmlProdutos;
-
 }
+
 
 
 // 4. Inicia o carregamento

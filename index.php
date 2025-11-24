@@ -15,16 +15,9 @@
 <header> 
   <h1> <img id="logo-index" src="./data/imagens/logo-albatroz.jpg" alt="" width="100">
       </h1>     
-<nav>
-      
-                 <a href="index.html"> 🏠 Home </a> |
-           <a href="catalogo.html"> 🛒 Catálago</a> |
-           <a href="SAC.html"> 🛠️ SAC</a> |
-           <a href="equipe.html"> 👨‍💼 Equipe</a> |
-           <a href="local.html"> 📍 Local</a>
-            <a id="alternaTema" href="#">Alternar Tema</a>
-            
-  </nav> 
+ 
+      <?php include 'nav.php'; ?>
+
 </header> 
 </div>
 
